@@ -1,5 +1,5 @@
 Name: bat
-Version: 0.8.0
+Version: 0.9.0
 Release: 1%{?dist}
 Summary: A cat(1) clone with wings.
 License: MIT or Apache License, Version 2.0
@@ -37,5 +37,8 @@ cargo test
 %{_mandir}/man1/bat.1*
 
 %changelog
+* Mon Nov 12 2018 Alexander Groshev <sattellite@yandex.com> - 0.9.0-1
+- Update to 0.9.0 version
+
 * Wed Nov 07 2018 Alexander Groshev <sattellite@yandex.com> - 0.8.0-1
 - Initial spec file
