@@ -1,5 +1,5 @@
 Name: bat
-Version: 0.10.0
+Version: 0.11.0
 Release: 1%{?dist}
 Summary: A cat(1) clone with wings.
 License: MIT or Apache License, Version 2.0
