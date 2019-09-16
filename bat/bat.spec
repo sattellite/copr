@@ -1,5 +1,5 @@
 Name: bat
-Version: 0.11.0
+Version: 0.12.1
 Release: 1%{?dist}
 Summary: A cat(1) clone with wings.
 License: MIT or Apache License, Version 2.0
@@ -37,6 +37,9 @@ cargo test
 %{_mandir}/man1/bat.1*
 
 %changelog
+* Mon Sep 16 2019 Alexander Groshev <sattellite@yandex.com> - 0.12.1-1
+- Update to 0.12.1 version
+
 * Fri Feb 15 2019 Alexander Groshev <sattellite@yandex.com> - 0.10.0-1
 - Update to 0.10.0 version
 
