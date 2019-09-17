@@ -12,13 +12,15 @@ ExclusiveArch: x86_64 i686 armv7hl
 ExclusiveArch: x86_64 aarch64
 %endif
 
+Patch0: https://raw.githubusercontent.com/sattellite/copr/master/bat/fix-build-0.12.patch
+
 %description
 A cat(1) clone with syntax highlighting, git integration and automatic paging.
 
 # Disable debug info; bat doesn't include debug info in release profile
 %define debug_package %{nil}
 %prep
-%autosetup
+%autosetup -p1
 
 %build
 cargo build --release

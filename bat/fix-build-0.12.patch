@@ -1,0 +1,14 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 2ab6c9e..8a3f303 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -33,7 +33,7 @@ default-features = false
+ features = []
+ 
+ [dependencies.syntect]
+-version = "3.2.1"
++version = "=3.2.0"
+ default-features = false
+ features = ["parsing", "yaml-load", "dump-load", "dump-create"]
+ 
+
